@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AdiFlix - Movies</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #141414;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="flex items-center justify-between p-4 bg-black">
+    <h1 class="text-3xl font-bold text-red-600">AdiFlix</h1>
+    <nav>
+      <ul class="flex gap-6 text-white">
+        <li><a href="#" class="hover:text-red-500">Home</a></li>
+        <li><a href="#" class="hover:text-red-500">Movies</a></li>
+        <li><a href="#" class="hover:text-red-500">About</a></li>
+      </ul>
+    </nav>
+  </header>  <!-- Hero -->  <section class="p-6">
+    <h2 class="text-2xl font-semibold mb-4">Featured Movies</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <!-- Movie Card -->
+      <div class="bg-zinc-900 rounded-lg shadow-lg overflow-hidden">
+        <img src="https://via.placeholder.com/300x400" alt="Movie Poster" class="w-full h-60 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-bold">Movie Title</h3>
+          <p class="text-sm text-zinc-400">Release Year • Genre</p>
+        </div>
+      </div>
+      <!-- Repeat Movie Cards as needed -->
+    </div>
+  </section>  <!-- Footer -->  <footer class="bg-black text-center py-4 mt-10 text-zinc-400">
+    &copy; 2025 AdiFlix. All rights reserved.
+  </footer>
+</body>
+</html>
